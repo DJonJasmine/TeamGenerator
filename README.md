@@ -10,7 +10,7 @@ A team generator used to create a team members profile.
 
 ## Visuals
 
-![Screenshot of the usage results](assets/images/Screenshot%202022-12-31%20160755.png)
+![Screenshot of the usage results](assets/images/Team-Profile.png)
 
 ## Installation
 
@@ -20,7 +20,7 @@ For tests jest is required, navigate to [Jest package](https://www.npmjs.com/pac
 
 ## Usage
 
-To view demonstration of this project click [HERE](https://drive.google.com/file/d/1QUrLlzSb6LNods2T9DnryNRdE61QTHcB/preview).
+To view demonstration of this project click [HERE](https://drive.google.com/file/d/1HkbDCzwR8dQSF3gjAMNeyD5wfGyv12em/preview).
 
 ## Support
 
