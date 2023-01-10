@@ -16,13 +16,11 @@ A team generator used to create a team members profile.
 
 For installation npm is required, navigate to [node.js website](https://nodejs.org/en/) to install.
 
+For tests jest is required, navigate to [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
+
 ## Usage
 
 To view demonstration of this project click [HERE](https://drive.google.com/file/d/1QUrLlzSb6LNods2T9DnryNRdE61QTHcB/preview).
-
-## Tests
-
-
 
 ## Support
 
