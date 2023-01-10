@@ -10,7 +10,7 @@ A team generator used to create a team members profile.
 
 ## Visuals
 
-![Screenshot of the usage results](assets/images/Team-Profile.png)
+![Screenshot of the usage results](/Assets/images/Team-Profile.png)
 
 ## Installation
 
