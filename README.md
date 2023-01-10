@@ -20,7 +20,7 @@ For tests jest is required, navigate to [Jest package](https://www.npmjs.com/pac
 
 ## Usage
 
-To view demonstration of this project click [HERE](https://drive.google.com/file/d/1HkbDCzwR8dQSF3gjAMNeyD5wfGyv12em/preview).
+To view demonstration of this project click [HERE](https://drive.google.com/file/d/1HkbDCzwR8dQSF3gjAMNeyD5wfGyv12em/view).
 
 ## Support
 
