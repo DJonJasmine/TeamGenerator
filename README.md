@@ -6,13 +6,11 @@ A team generator used to create a team members profile.
 
 ## Badges
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DJonJasmine/Professional-README-Generator">
-
 <img alt="License" src="https://img.shields.io/github/license/djonjasmine/teamgenerator">
 
 ## Visuals
 
-![Screenshot of the terminal with prompted questions](assets/images/Screenshot%202022-12-31%20160755.png)
+![Screenshot of the usage results](assets/images/Screenshot%202022-12-31%20160755.png)
 
 ## Installation
 
