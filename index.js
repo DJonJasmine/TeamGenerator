@@ -9,17 +9,11 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
 
-//importing generate function 
+// importing generate function 
 const generateHtml = require('./src/layoutTemplate');
-const dist_dir = path.resolve(__dirname, 'dist');
-const distPath = path.join(dist_dir, 'index.html');
-
 
 teamMembers = [];
 
-
-
-function runApp() {
 
   function generateTeam() {
     inquirer.prompt([{
@@ -29,26 +23,9 @@ function runApp() {
       message: 'Add an employee to build team.',
       choices: ['Manager', 'Engineer', 'Intern', 'Finish building team.']
 
-    }]).then(function (userInput) {
-      switch(userInput.addEmployeePrompt) {
-        case 'Manager':
-          addManager();
-          break;
-        case 'Engineer':
-          addEngineer();
-          break;
-        case 'Intern':
-          addIntern();
-          break;
+    }]
 
-        default:
-          writeHtml();
-      }
-    })
-  }
-  // OOP Functions
-
-  function addManager() {
+  function manager() {
     inquirer.prompt ([
     
     {
@@ -84,7 +61,7 @@ function runApp() {
   }
 
 
-  function addEngineer() {
+  function engineer() {
     inquirer.prompt([
       
       {
@@ -119,7 +96,7 @@ function runApp() {
 
   }
 
-  function addIntern() {
+  function intern() {
     inquirer.prompt([
       
       {
@@ -158,12 +135,8 @@ function runApp() {
   function writeHtml() {
     console.log('Team has been created!')
 
-    fs.writeFileSync(distPath, generateHtml(teamMembers), 'utf-8');
+    fs.writeFileSync( generateHtml(teamMembers), 'utf-8');
   }
 
 
-  generateTeam();
-
 }
-
-runApp();

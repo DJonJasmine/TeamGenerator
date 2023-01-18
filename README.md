@@ -10,7 +10,6 @@ A team generator used to create a team members profile.
 
 ## Visuals
 
-![Screenshot of the usage results](/Assets/images/Team-Profile.png)
 
 ## Installation
 
@@ -19,8 +18,6 @@ For installation npm is required, navigate to [node.js website](https://nodejs.o
 For tests jest is required, navigate to [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
 
 ## Usage
-
-To view demonstration of this project click [HERE](https://drive.google.com/file/d/1HkbDCzwR8dQSF3gjAMNeyD5wfGyv12em/view).
 
 ## Support
 
